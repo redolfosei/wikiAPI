@@ -2,7 +2,6 @@ const express = require("express");
 const ejs = require("ejs");
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser"); 
-const { request } = require("http");
 
 const port = process.env.PORT || 3000; 
 
